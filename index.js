@@ -29,4 +29,5 @@ function findBy(array, findFn) {
   }
 }
 
-findBy(arr, (element) => element.length < 0);
+findBy([1,2,3], (element) => element % 3 === 0);
+findBy(["dog", "cat", "cow"], (element) => element === "moose");
