@@ -4,13 +4,17 @@ function breakOut(array, changeValue, stopValue) {
     if (array[i] === stopValue) {
       break;
     }
-    array[i] = array[i] + 3;
+    array[i] = changeValue;
   }
   return array;
 }
 
 function keepGoing(array, changeValue, skipValue) {
-
+  for (var i = 0; i < array.length; i++) {
+    if (true) {
+      
+    }
+  }
 }
 
 function findBy(array, findFn) {
