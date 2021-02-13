@@ -29,4 +29,4 @@ function findBy(array, findFn) {
   }
 }
 
-findBy(arr, (element) => {element % 3 > 0});
+findBy(arr, (element) => element % 3 > 0);
