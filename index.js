@@ -24,9 +24,8 @@ function findBy(array, findFn) {
     // debugger;
     if (findFn(array[i])) {
       return array[i];
-    } else {
-      return null;
-    }
+    } 
+    return null
   }
 }
 const c = Math.floor(Math.random() * 100);
