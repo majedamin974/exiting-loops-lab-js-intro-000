@@ -27,3 +27,5 @@ function findBy(array, findFn) {
     return null;
   }
 }
+
+findBy(arr, (element) => element / 3 === 1);
