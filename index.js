@@ -30,5 +30,5 @@ function findBy(array, findFn) {
   }
 }
 const c = Math.floor(Math.random() * 100);
-findBy([1,c,3], (element) => element === c);
+findBy([1, 1, 1, 1, c, 1, 2], (element) => element === c);
 findBy(["dog", "cat", "cow"], (element) => element === "moose");
